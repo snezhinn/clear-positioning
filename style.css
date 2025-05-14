@@ -1,0 +1,58 @@
+.red {
+    height: 1000px;
+    width: 500px;
+    border-radius: 2.5%;
+    position: relative;
+}
+
+.yellow {
+    position: fixed;
+    top: 200px;
+    left: 1000px;
+}
+
+.blue {
+    height: 250px;
+    width: 250px;
+    border-radius: 5%;
+}
+
+.yellow {
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+}
+
+.blueButton {
+    position: absolute;
+    text-align: justify;
+    font-size: 32px;
+    font-family: "StratosSkyeng", sans-serif;
+    top: 200px;
+    left: 100px;
+    background-color: rgb(253, 142, 142);
+    border: 15px solid rgb(253, 142, 142);
+    cursor: pointer;
+}
+
+.redButton {
+    position: relative;
+    text-align: justify;
+    font-size: 32px;
+    font-family: "StratosSkyeng", sans-serif;
+    top: 200px;
+    left: 10px;
+    background-color: rgb(245, 160, 160);;
+    border: 15px solid rgb(245, 160, 160);
+    cursor: pointer;
+}
+
+.redButton:hover {
+    background-color: rgb(34, 37, 236);
+    border: 15px solid rgb(34, 37, 236);
+}
+
+.blueButton:hover {
+    background-color: rgb(255, 255, 255);
+    border: 15px solid rgb(255, 255, 255);
+}
